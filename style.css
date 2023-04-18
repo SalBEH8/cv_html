@@ -54,21 +54,41 @@ article {
     margin-bottom: 20px;
 }
 
-
-article h3,
-article h4 {
-    margin-top: 0;
-    margin-bottom: 0.5em;
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-article ul {
-    margin-left: 1em;
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-article li {
-    margin-bottom: 0.5em;
+nav li {
+    margin: 5px 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    text-align: center;
 }
 
+nav a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+nav a:hover {
+    color: #666;
+}
+
+nav i {
+    margin-right: 5px;
+}
 
 footer {
     background-color: #f4f4f4;
